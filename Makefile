@@ -1,5 +1,5 @@
 CC=gcc
-CCFLAGS=-ggdb3 -Og -fsanitize=undefined -Wall -Wextra -Wpedantic -Wconversion -Werror -fanalyzer
+CCFLAGS=-ggdb3 -Og -fsanitize=undefined -Wall -Wextra -Wpedantic -Wconversion -Werror 
 
 LIBSRC=threading.c threading_data.c
 LIBPATH=$(shell pwd)
